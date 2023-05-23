@@ -38,5 +38,3 @@ for i in range(n):
     
     if i != n-1: # 마지막이 아닐때만
         print('-----')
-
-
