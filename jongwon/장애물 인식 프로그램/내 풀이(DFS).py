@@ -4,9 +4,7 @@ def find_obstacles(grid):
     n = len(grid)
 
     visited = [[False] * n for _ in range(n)]
-    
     blocks = [] # 블록 저장할 리스트
-
     def dfs(row, col):
         if row < 0 or row >= n or col < 0 or col >= n: # 지도 범위가 넘어가면 
             return 0

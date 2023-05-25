@@ -17,8 +17,6 @@ def dfs(x, y):
         return True
     return False
 
-
-
 N = int(input())
 cnt = []
 
